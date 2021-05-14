@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\IWS\a1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3112340732.index
+\CalculationServiceServer\src
+D:\IWS\a1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\524004506.index
+\CalculationServiceServer\src
+D:\IWS\a1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1188887798.index
+\CalculationServiceServer\src
+D:\IWS\a1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2714858656.index
+\CalculationServiceServer\src
+D:\IWS\a1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1519459883.index
+\CalculationServiceServer\src

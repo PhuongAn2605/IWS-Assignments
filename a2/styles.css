@@ -1,0 +1,298 @@
+body, html{
+    margin: 0 !important;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    /* flex-direction: row; */
+    width: 100% !important;
+    background-color: rgb(230, 237, 240);
+}
+.hidden{
+    display: none !important;
+}
+/* body::after {
+    background-image: url("./images/bg.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    content: "";
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;   
+  } */
+
+  .container-left{
+      padding: 0;
+      margin: 0 !important;
+      /* overflow-y: auto; */
+      display: flex;
+      height: 950px;
+        position: fixed;
+        /* display: fixed; */
+        /* max-height: none; */
+        /* outline: none; */
+        /* height: 100vh; */
+        
+  }
+
+  .intro .card{
+    background-color: rgb(216, 233, 238);
+      padding: 1rem 1rem 0 1rem;
+      /* width: 100%; */
+      width: 16rem !important;
+      /* position: relative;
+      overflow:visible; */
+      height: 100%;
+    
+      /* max-height: none; */
+      
+  }
+  .intro .card img{
+      width: 100%;
+      height: 40%;
+  }
+  .intro .card-body{
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .icon{
+      display: flex;
+      justify-content: space-around;
+  }
+  .card-body .fab, .fas{
+      font-size: 1.5rem;
+  }
+  .fab.fa-facebook{
+      color: rgb(33, 51, 153);
+  }
+  .fas.fa-envelope-square{
+      color:brown;
+  }
+  .fas.fa-phone{
+      color: chartreuse;
+  }
+  .fab.fa-github{
+    color: rgb(29, 30, 31);
+}
+.card-title{
+    /* font-family: 'Averia Serif Libre', cursive; */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(28, 165, 211);
+    
+}
+
+.card-text-1{
+    text-align: center;
+    color:rgb(141, 58, 58);
+
+}
+.navbar.navbar-expand-lg{
+    background-color: rgb(108, 110, 110);
+}
+.navbar-nav{
+    display: block;
+}
+/* .navigation{
+    width: 40%;
+} */
+.navbar{
+    width: 6rem !important;
+    height: 100%;
+
+}
+.navbar .fas{
+    font-size: 1rem;
+    color: rgb(247, 240, 240);
+    margin-left: 2rem;
+    /* text-align: center; */
+}
+.nav-link{
+    text-transform: uppercase;
+    text-align: center;
+}
+.location{
+    display: flex;
+}
+
+.clock{
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    /* margin: auto; */
+}
+.clock p{
+    margin: 0;
+}
+.weather{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:rgb(226, 122, 25);
+    /* min-height: 3rem;
+    background-color: lightblue; */
+}
+.weather .fas, .clock .far{
+    font-size: 1.5rem;
+    color: rgb(30, 151, 151);
+}
+.weather .far{
+    font-size: 1.5rem;
+    color:rgb(33, 51, 153);
+}
+
+
+.container-right h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(35, 167, 94);
+    padding: 1rem;
+    width: 100%;
+    margin-left: 0 !important;
+    /* background-color: lightblue; */
+}
+/* #about-me{
+    margin-top: 0rem  !important;
+}
+#about-me h2{
+    margin-top: 0rem;
+} */
+.container-right h2:hover{
+    text-decoration: underline;
+}
+
+.container-right{
+    /* margin: 1rem; */
+    margin-right: 0 !important;
+    padding: 0 !important;
+    width: 76%;
+    height: 100%;
+    margin-left: 23rem;
+}
+
+.fas.fa-smile{
+    font-size: 1rem;
+    color: rgb(197, 117, 42);
+}
+.text-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.text-intro img{
+    width: 12rem;
+    height: 12rem;
+}
+.back-image h2, h5{
+    margin: 0.5rem;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Meddon', cursive;
+    font-family: 'Mr Bedfort', cursive;
+    text-align: center;
+    /* background-color: rgb(209, 232, 240); */
+}
+.back-image h2{
+    font-size: 15px;
+    /* background-color: rgb(216, 233, 238); */
+}
+.self-feeling{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+.container-right p{
+    margin-right: 1rem;
+    /* border: 1px solid #fff; */
+    padding: 0.5rem;
+    /* background-color: rgb(170, 206, 206); */
+    font-size: 20px;
+    color: rgb(138, 97, 9);
+    text-align: center;
+    border-radius: 30px;
+}
+.self-feeling .drop-down{
+    margin: 2rem;
+    color: rgb(190, 243, 190);
+}
+.back-image{
+    text-align: center;
+}
+.university h3{
+    text-align: center;
+    margin: 1rem;
+    color: rgb(19, 179, 19);
+    font-weight: bold;
+}
+.progress{
+    margin: 1rem;
+}
+#products a{
+    text-decoration: none;
+}
+#goals .card-group{
+    display: flex;
+    /* flex-direction: row; */
+    margin: 2rem;
+    justify-content: space-around;
+}
+ #goals .card{
+    margin: 1rem;
+    text-align: center;
+    height: 15rem;
+    width: 8rem;
+    background-color: rgb(223, 215, 216);
+    /* padding: 1rem; */
+}
+.card-text{
+    margin-top: 0;
+    font-size: 18px;
+}
+#goals .card img{
+    height: 80%;
+}
+#contact .col-md-6{
+    margin: 2rem 2rem 1rem 5rem;
+}
+#contact button{
+    margin-left: 5rem;
+}
+.response, .kidding{
+    /* text-align: center; */
+    color: maroon;
+    margin: 0.5rem;
+    margin-left: 5rem
+}
+.footer{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(160, 154, 155);
+    text-align: center;
+    color: rgb(10, 82, 78);
+}
+
+@media screen and (max-width: 900px){
+    .navigation{
+        display: none !important;
+    }
+    #contact{
+        display: none;
+    }
+}
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CalculationServiceServer">
+        <property name="context-root" value="CalculationServiceServer"/>
+        <property name="java-output-path" value="/CalculationServiceServer/build/classes"/>
+    </wb-module>
+</project-modules>
